@@ -1,3 +1,75 @@
-p{
-    color: whitesmoke;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+@media screen and (max-width: 800px) {
+    .leftside{
+        max-width: 100%;
+        max-height: 100%;
+        height: fit-content;
+        margin-right: 0px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightside{
+        display: flex;
+        flex-direction: inherit;
+        margin-left: 0px;
+    }
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.leftside{
+    color: rgb(199, 199, 199);
+    background-color: #1a633e;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    text-align: center;
+    float: left;
+}
+
+.content{
+    display: flex;
+    justify-content: left;
+}
+
+.rightside{
+    flex-direction: column;
+    overflow: auto;
+    margin-left: 20px;
+}
+.yhteystiedot p{
+    margin: auto auto auto 100px;
+    text-align: left;
+}
+
+.taidot h2{
+    background-color: #23925b;
+    margin: 0 20px auto auto;
+}
+
+#html{
+    margin: 0 10px auto auto;
+}
+#css{
+    margin: 0 20px auto auto;
+}
+#javascript{
+    margin: 0 35px auto auto;
+}
+#office{
+    margin: 0 100px auto auto;
+}
+#backend{
+    margin: 0 200px auto auto;
 }
