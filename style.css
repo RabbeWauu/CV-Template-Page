@@ -13,7 +13,7 @@
     }
     .rightside{
         display: flex;
-        flex-direction: inherit;
+        flex-direction: column;
         margin-left: 0px;
     }
 }
